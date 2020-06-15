@@ -1780,6 +1780,8 @@
 	}
 
 	code {
+		font-size: 18px;
+		font-family: Arial, Helvetica, sans-serif;
 		background: rgba(144, 144, 144, 0.075);
 		border-color: rgba(144, 144, 144, 0.25);
 	}
@@ -2248,8 +2250,8 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
-		padding-left: 1em;
+		margin: 0 -30em 2em 0;
+		padding-left: 4em;
 	}
 
 		ul li {
@@ -2276,11 +2278,12 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			padding-right: 30em;
 		}
 
 			ul.icons > li {
 				display: inline-block;
-				padding: 0 1em 0 0;
+				padding: 0 3em 0 0;
 			}
 
 				ul.icons > li:last-child {
@@ -4009,6 +4012,7 @@
 			color: #fff;
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
+			word-spacing: 6px;
 			text-transform: uppercase;
 		}
 
